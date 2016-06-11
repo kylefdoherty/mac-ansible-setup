@@ -1,0 +1,29 @@
+homebrew_installed_packages:
+  - ansible
+  - docker
+  - zsh
+  - node
+  - sqlite
+  - postgresql
+  - python
+  - ruby
+  - ssh-copy-id
+  - cowsay
+  - wget
+  - brew-cask # allows installation of OSX Applications
+
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - google-chrome
+  - firefox
+  - sublime-text
+  - atom
+  - spectacle
+  - dropbox
+  - 1password

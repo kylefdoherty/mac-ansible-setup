@@ -1,0 +1,12 @@
+---
+  - hosts: localhost
+    user: kyledoherty
+    connection: local
+
+    var_files:
+      - vars/main.yml
+
+    roles:
+      - geerlingguy.homebrew
+
+    tasks: []
